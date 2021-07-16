@@ -1,0 +1,2 @@
+intersight-rest==1.1.7
+pandas==1.2.3
