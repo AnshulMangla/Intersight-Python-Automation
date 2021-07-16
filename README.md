@@ -22,5 +22,11 @@ If you have git installed, clone the repository
 
 After downloading, set up the Intersight Private and Public keys
 
-    cd acitoolkit
-    mkdir 
+    cd Intersight-API-Toolkit
+    mkdir keys
+    
+Download the Private and Public keys from your Intersight instance and save them as .txt files with following names under the 'keys' directory:
+
+    intersight-public-key.txt
+    intersight-private-key.txt
+    
