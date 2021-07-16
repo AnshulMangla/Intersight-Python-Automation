@@ -44,19 +44,19 @@ Command line will prompt you to enter the returned JSON object you want the scri
 
     Enter the returned JSON object to process: Results
  
-Command line will prompt you to enter number of Rows of the JSON object you want to output in CSV file (e.g. 100 below) ~ $top param in the query:
+Command line will prompt you to enter number of Rows of the JSON object you want to output in CSV file (e.g. 100 below) ~ $top param in the API:
 
     Enter the number of rows to process: 100
 
     Note: Optional field. Press enter if you do not wish to enter any value
 
-Command line will prompt you to enter fields of JSON object you want to output as columns in CSV file (e.g. Dn,DeviceMoId below) ~ $select in the query :
+Command line will prompt you to enter fields of JSON object you want to output as columns in CSV file (e.g. Dn,DeviceMoId below) ~ $select in the API :
 
     Enter the columns to be selected (for $select param) Dn,DeviceMoId
     
     Note: Optional field. Press enter if you do not wish to enter any value
     
-Command line will prompt you to enter the filter string on on the basis of which the API will query the output to CSV file.
+Command line will prompt you to enter the filter string on on the basis of which the API will query the output to CSV file ~ $filter in the API :
 
     Enter the query strong for the $filter (e.g. MoID eq XXXX) DeviceMoId eq '5f41f5586f72612d31a8ff7f'
     
