@@ -62,15 +62,3 @@ Command line will prompt you to enter the filter string on on the basis of which
     
     Note: Optional field. Press enter if you do not wish to enter any value
   
-
-    
-    
-
-
-
-
-
-
-```
-docker run -it --name acitoolkit dockercisco/acitoolkit
-```
