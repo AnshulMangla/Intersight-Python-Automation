@@ -30,3 +30,47 @@ Download the Private and Public keys from your Intersight instance and save them
     intersight-public-key.txt
     intersight-private-key.txt
     
+# Usage
+
+Execute the python file from the 'Intersight-API-Toolkit' directory
+
+    $ python3 intersight-api-to-csv.py
+    
+Command line will prompt you for the relative path of the Intersight API you want to execute:
+
+    Enter the relative path of the API: /compute/RackUnits
+   
+Command line will prompt you to enter the returned JSON object you want the script to convert to CSV format (e.g. Results in this case):
+
+    Enter the returned JSON object to process: Results
+ 
+Command line will prompt you to enter number of Rows of the JSON object you want to output in CSV file (e.g. 100 below) ~ $top param in the query:
+
+    Enter the number of rows to process: 100
+
+    Note: Optional field. Press enter if you do not wish to enter any value
+
+Command line will prompt you to enter fields of JSON object you want to output as columns in CSV file (e.g. Dn,DeviceMoId below) ~ $select in the query :
+
+    Enter the columns to be selected (for $select param) Dn,DeviceMoId
+    
+    Note: Optional field. Press enter if you do not wish to enter any value
+    
+Command line will prompt you to enter the filter string on on the basis of which the API will query the output to CSV file.
+
+    Enter the query strong for the $filter (e.g. MoID eq XXXX) DeviceMoId eq '5f41f5586f72612d31a8ff7f'
+    
+    Note: Optional field. Press enter if you do not wish to enter any value
+  
+
+    
+    
+
+
+
+
+
+
+```
+docker run -it --name acitoolkit dockercisco/acitoolkit
+```
